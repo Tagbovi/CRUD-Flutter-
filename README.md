@@ -1,6 +1,6 @@
 # CRUD-Flutter-
-make sure you have a virtual emulator like a mobile phone emulator
-make sure you have the api for web   'http: ^1.1.0'    is  included in your  'pubspec.yaml '  file
-run    'mymain.dart'   in lib folder to run the app
-the link to the api used in this program: 'http://api.nstack.in/#/Todo/TodoController_findOne'
+Make sure you have a virtual emulator like a mobile phone emulator.
+Make sure you have this included:   'http: ^1.1.0'  in your  'pubspec.yaml '  file that allows flutter access web api services.
+Run    'mymain.dart'   in the  'lib'  folder to run the app.
+The link to the api used in this program:  'http://api.nstack.in/#/Todo/TodoController_findOne'
 
