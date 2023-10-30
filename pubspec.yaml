@@ -38,23 +38,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   http: ^1.1.0
-  firebase_core: ^2.15.1
+ 
   google_fonts: ^5.1.0
   lib: ^0.0.3
   url_launcher: ^6.1.14
-  loading_animation_widget: ^1.2.0+4
-  flutter_spinkit: ^5.2.0
-  animated_text_kit: ^4.2.2
-  animated_widgets: ^1.1.0
-  audioplayers: ^5.1.0
-  just_audio: ^0.9.35
-  sqflite: ^2.3.0
-  provider: ^6.0.5
-  path: ^1.8.3
-  sqflite_migration: ^0.3.0
-
-  
-
+ 
  
   
 
@@ -94,125 +82,7 @@ flutter:
 
   assets:
  
-    - lib/assets/page-1/images/mask-group.png
-    - lib/assets/page-1/images/mask-group-q2w.png
-    - lib/assets/page-1/images/union.png
-    - lib/assets/page-1/images/mask-group-wW7.png
-    - lib/assets/page-1/images/city-hall.png
-    - lib/assets/page-1/images/city-hall-zcX.png
-    - lib/assets/page-1/images/doorbell.png
-    - lib/assets/page-1/images/doorbell-bWP.png
-    - lib/assets/page-1/images/doorbell-M3d.png
-    - lib/assets/page-1/images/doorbell-KnP.png
-    - lib/assets/page-1/images/doorbell-scs.png
-    - lib/assets/page-1/images/doorbell-1no.png
-    - lib/assets/page-1/images/doorbell-tYP.png
-    - lib/assets/page-1/images/doorbell-4QX.png
-    - lib/assets/page-1/images/doorbell-3Gs.png
-    - lib/assets/page-1/images/ran-1.png
-    - lib/assets/page-1/images/call.png
-    - lib/assets/page-1/images/call-Fwu.png
-    - lib/assets/page-1/images/call-zHD.png
-    - lib/assets/page-1/images/plumbing.png
-    - lib/assets/page-1/images/call-bvX.png
-    - lib/assets/page-1/images/plumbing-vYo.png
-    - lib/assets/page-1/images/call-iGw.png
-    - lib/assets/page-1/images/call-irb.png
-    - lib/assets/page-1/images/white-1.png
-    - lib/assets/page-1/images/white-1-oPM.png
-    - lib/assets/page-1/images/white-1-Cdm.png
-    - lib/assets/page-1/images/back-arrow.png
-    - lib/assets/page-1/images/white-2.png
-    - lib/assets/page-1/images/white-1-t8X.png
-    - lib/assets/page-1/images/fire.png
-    - lib/assets/page-1/images/white-1-H9y.png
-    - lib/assets/page-1/images/white-1-qz7.png
-    - lib/assets/page-1/images/white-2-PVq.png
-    - lib/assets/page-1/images/fire-fFV.png
-    - lib/assets/page-1/images/asset1b-1.png
-    - lib/assets/page-1/images/asset1b-1-eBy.png
-    - lib/assets/page-1/images/asset1b-1-uJF.png
-    - lib/assets/page-1/images/mask-group-5zX.png
-    - lib/assets/page-1/images/hospital-sign.png
-    - lib/assets/page-1/images/hospital-sign-UiT.png
-    - lib/assets/page-1/images/logo-main.png
-    - lib/assets/page-1/images/logo-main-xwq.png
-    - lib/assets/page-1/images/logo-main-zij.png
-    - lib/assets/page-1/images/logo-main-XcB.png
-    - lib/assets/page-1/images/logo-main-gjy.png
-    - lib/assets/page-1/images/logo-main-Qvs.png
-    - lib/assets/page-1/images/logo-main-acP.png
-    - lib/assets/page-1/images/logo-main-sLb.png
-    - lib/assets/page-1/images/logo-main-hZq.png
-    - lib/assets/page-1/images/logo-main-jFd.png
-    - lib/assets/page-1/images/administrator-male-bg.png
-    - lib/assets/page-1/images/logo-main-ZEf.png
-    - lib/assets/page-1/images/administrator-male-bg-efR.png
-    - lib/assets/page-1/images/campus-logo-1.png
-    - lib/assets/page-1/images/campus-logo-1-y4B.png
-    - lib/assets/page-1/images/campus-logo-1-fpj.png
-    - lib/assets/page-1/images/administrator-male.png
-    - lib/assets/page-1/images/police.png
-    - lib/assets/page-1/images/police-6kf.png
-    - lib/assets/page-1/images/dbb2d893784dcd3-1.png
-    - lib/assets/page-1/images/images-1.png
-    - lib/assets/page-1/images/administrator-male-qGB.png
-    - lib/assets/page-1/images/images-1-X8B.png
-    - lib/assets/page-1/images/back-arrow-uXM.png
-    - lib/assets/page-1/images/hospital-sign-b5y.png
-    - lib/assets/page-1/images/back-arrow-Mwd.png
-    - lib/assets/page-1/images/back-arrow-7vo.png
-    - lib/assets/page-1/images/back-arrow-BQj.png
-    - lib/assets/page-1/images/home-1-bg.png
-    - lib/assets/page-1/images/rectangle-3-bg.png
-    - lib/assets/page-1/images/fire-ZAo.png
-    - lib/assets/page-1/images/doorbell-6Wj.png
-    - lib/assets/page-1/images/mask-group-rZ5.png
-    - lib/assets/page-1/images/back-arrow-yw5.png
-    - lib/assets/page-1/images/campus-logo-main.png
-    - lib/assets/page-1/images/campus-logo-main-qeo.png
-    - lib/assets/page-1/images/campus-logo-main-XXd.png
-    - lib/assets/page-1/images/campus-logo-main-xRu.png
-    - lib/assets/page-1/images/campus-logo-main-5WX.png
-    - lib/assets/page-1/images/main-home-bg.png
-    - lib/assets/page-1/images/rectangle-3-bg-C31.png
-    - lib/assets/page-1/images/police-qXV.png
-    - lib/assets/page-1/images/pexels-pixabay-260367-1.png
-    - lib/assets/page-1/images/doorbell-huy.png
-    - lib/assets/page-1/images/doorbell-sE7.png
-    - lib/assets/page-1/images/doorbell-ZWF.png
-    - lib/assets/page-1/images/doorbell-3Gs.png
-    - lib/assets/page-1/images/rectangle-3-bg-GF9.png
-    - lib/assets/page-1/images/pexels-photo-7714980-1-bg.png
-    - lib/assets/page-1/images/rectangle-3-bg-1vo.png
-    - lib/assets/page-1/images/rectangle-3-bg-hqZ.png
-    - lib/assets/page-1/images/administration-bg.png
-    - lib/assets/page-1/images/leakage-bg.png
-    - lib/assets/page-1/images/fire-bg.png
-    - lib/assets/page-1/images/rectangle-3-bg-X5y.png
-    - lib/assets/page-1/images/rectangle-3-bg-EFH.png
-    - lib/assets/page-1/images/city-hall-ZHZ.png
-    - lib/assets/page-1/images/hospital-bg.png
-    - lib/assets/page-1/images/icampus-bg.png
-    - lib/assets/page-1/images/plumbing-YTZ.png
-    - lib/assets/page-1/images/AtuCampuspic.png
-    - lib/assets/page-1/images/pexels-photo-8487774-1.png
-    - lib/assets/page-1/images/mask-group-V4b.png
-    - lib/assets/page-1/images/studentE.jpg
-    - lib/assets/page-1/images/atulogo.png
-    - lib/assets/page-1/images/atublack.png
-    - lib/assets/page-1/images/cct.jpeg
-    - lib/assets/page-1/images/dyd.jpeg
-
-    
-    - lib/assets/page-1/images/icampusMotion1.jpg
-    - lib/assets/page-1/images/icampusMotion2.jpg
-    - lib/assets/page-1/images/icampusMotion3.jpg
-    - lib/assets/page-1/images/icampusMotion4.jpg
-    - lib/assets/page-1/images/icampusMotion5.jpg
-    - lib/assets/page-1/images/icampusMotion7.jpg
-
-    - lib/assets/soundeffects/pop-Notification.mp3
+   
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
